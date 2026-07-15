@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Privacy Policy : Xtriaa Technology</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{
+  --bg:#ffffff;
+  --bg-alt:#f2f2ef;
+  --bg-alt2:#e9e9e4;
+  --fg:#0a0a0a;
+  --muted:#666664;
+  --rule:#0a0a0a;
+  --rule-soft:#d8d8d4;
+  --accent:#d6331f;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0a0a0a;
+    --bg-alt:#161616;
+    --bg-alt2:#1e1e1c;
+    --fg:#f4f4f2;
+    --muted:#9c9c98;
+    --rule:#f4f4f2;
+    --rule-soft:#333331;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0a0a0a;
+  --bg-alt:#161616;
+  --bg-alt2:#1e1e1c;
+  --fg:#f4f4f2;
+  --muted:#9c9c98;
+  --rule:#f4f4f2;
+  --rule-soft:#333331;
+}
+:root[data-theme="light"]{
+  --bg:#ffffff;
+  --bg-alt:#f2f2ef;
+  --bg-alt2:#e9e9e4;
+  --fg:#0a0a0a;
+  --muted:#666664;
+  --rule:#0a0a0a;
+  --rule-soft:#d8d8d4;
+}
+*{box-sizing:border-box;}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--fg);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;
+  line-height:1.6;
+}
+a{color:var(--accent);text-decoration:none;}
+a:hover{text-decoration:underline;}
+.wrap{width:100%;max-width:760px;margin:0 auto;padding:0 24px;}
+.top{border-bottom:1px solid var(--rule-soft);padding:20px 0;}
+.top a{color:var(--muted);font-size:14px;font-weight:600;letter-spacing:.02em;}
+.top a:hover{color:var(--fg);}
+header{padding:56px 0 32px;}
+h1{font-size:clamp(32px,5vw,44px);margin:0 0 12px;letter-spacing:-.02em;}
+.updated{color:var(--muted);font-size:14px;margin:0;}
+.covers{color:var(--muted);font-size:15px;margin-top:20px;}
+section{padding:32px 0;border-top:1px solid var(--rule-soft);}
+h2{font-size:22px;margin:0 0 14px;letter-spacing:-.01em;}
+h3{font-size:17px;margin:22px 0 6px;}
+p{margin:0 0 14px;font-size:15.5px;}
+ul{margin:0 0 14px;padding-left:20px;}
+li{margin-bottom:8px;font-size:15.5px;}
+.product{background:var(--bg-alt);border:1px solid var(--rule-soft);border-radius:12px;padding:20px 22px;margin-bottom:14px;}
+.product h3{margin-top:0;}
+.product .domain{color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:.04em;margin-bottom:8px;}
+.callout{background:var(--bg-alt);border-left:3px solid var(--accent);padding:14px 18px;font-size:14.5px;margin:16px 0;}
+footer{padding:40px 0 60px;border-top:1px solid var(--rule-soft);color:var(--muted);font-size:14px;}
+footer a{color:var(--muted);}
+</style>
+</head>
+<body>
+
+<div class="top"><div class="wrap"><a href="index.html">← Xtriaa Technology</a></div></div>
+
+<div class="wrap">
+  <header>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: July 15, 2026</p>
+    <p class="covers">This single policy covers every Chrome extension published by Xtriaa Technology, listed below. We use one policy for all of our extensions so it stays consistent and up to date as we add new products, rather than maintaining a separate page per extension.</p>
+  </header>
+
+  <section id="general">
+    <h2>General Practices (Applies to All Our Extensions)</h2>
+    <p>Every extension we publish is built the same way:</p>
+    <ul>
+      <li>All settings, PINs, license status, and usage data are stored locally in your own browser using Chrome's built-in <code>storage</code> APIs. We do not operate a server that stores this data.</li>
+      <li>No account or sign-up is required to use the free tier of any of our extensions.</li>
+      <li>No analytics, no usage tracking, no advertising identifiers, no crash-reporting SDKs.</li>
+      <li>We do not sell or transfer your data to third parties.</li>
+      <li>The only outbound network request any of our extensions make is to <b>Lemon Squeezy</b>, our payment and licensing processor, and only if you activate or check a Pro license. That request sends the license key being activated and a randomly generated device identifier (so Lemon Squeezy can enforce your plan's device limit). It never includes your PINs, your settings, or anything about your browsing or activity.</li>
+      <li>Opening an "Upgrade" or "Manage Subscription" link from any of our extensions takes you to a Lemon Squeezy-hosted page in a new tab. From that point you are interacting directly with Lemon Squeezy, governed by their own privacy policy, not ours.</li>
+    </ul>
+  </section>
+
+  <section id="products">
+    <h2>What Each Extension Stores</h2>
+
+    <div class="product">
+      <div class="domain">instagram.com</div>
+      <h3>Instagram Deleter &amp; Unliker Pro</h3>
+      <p>Stores your free-tier usage counters (how many unlikes, comment deletions, repost deletions, and story-reply deletions you've run), your Pro license status, and a randomly generated device identifier. All stored locally.</p>
+    </div>
+
+    <div class="product">
+      <div class="domain">x.com / twitter.com</div>
+      <h3>Tweet Deleter &amp; Unliker Pro</h3>
+      <p>Stores your Pro license status, a randomly generated device identifier, and free-tier usage counters. All stored locally.</p>
+    </div>
+
+    <div class="product">
+      <div class="domain">linkedin.com</div>
+      <h3>LinkedIn Post Deleter &amp; Unliker Pro</h3>
+      <p>Stores your Pro license status, a randomly generated device identifier, and free-tier usage counters. All stored locally.</p>
+    </div>
+
+    <div class="product">
+      <div class="domain">x.com / twitter.com</div>
+      <h3>Private Twitter Bookmarks</h3>
+      <p>Stores your Bookmark PIN as a cryptographic hash (never as plain text), your trial and Pro license status, and a randomly generated device identifier. All stored locally.</p>
+    </div>
+
+    <div class="product">
+      <div class="domain">web.whatsapp.com</div>
+      <h3>WhatsApp Chat Locker Pro</h3>
+      <p>Stores your PIN as a cryptographic hash (never as plain text), the list of chats you've chosen to lock, and your Pro license status. All stored locally.</p>
+    </div>
+
+    <div class="product">
+      <div class="domain">any website you choose to lock</div>
+      <h3>Site Locker : Lock Any Website with PIN</h3>
+      <p>Stores your Master PIN and Site PIN as cryptographic hashes (PBKDF2-SHA256, never as plain text), your list of locked websites, and your Pro license status. All stored locally.</p>
+    </div>
+
+    <div class="callout">None of the data described above is ever sent to any server we operate. We don't operate a server for this data at all.</div>
+  </section>
+
+  <section id="permissions">
+    <h2>Why Our Extensions Ask for Certain Permissions</h2>
+    <ul>
+      <li><b>storage</b>: to save your settings, PIN hashes, license status, and usage counters locally.</li>
+      <li><b>tabs / activeTab</b>: to detect which page you're on so the popup can show the right action, and to send a message to that tab's content script to start the action you request.</li>
+      <li><b>alarms</b>: to periodically re-check your Pro license status in the background, so a cancelled or refunded license is detected without you needing to reopen the extension.</li>
+      <li><b>Host permissions (specific sites, or all websites for Site Locker)</b>: each extension only requests access to the site(s) it actually operates on. Site Locker requests access to all websites because you choose which site to lock, and it can be any site.</li>
+    </ul>
+  </section>
+
+  <section id="retention">
+    <h2>Data Retention &amp; Deletion</h2>
+    <p>Everything our extensions store lives in your browser's local extension storage. Uninstalling an extension removes its stored data. To remove a Pro license from a specific device without uninstalling, you can revoke that device from your Lemon Squeezy customer portal.</p>
+  </section>
+
+  <section id="children">
+    <h2>Children's Privacy</h2>
+    <p>Our extensions are not directed at children under 13, and we do not knowingly collect data from children. Since all data is stored locally and never transmitted to us, we have no visibility into who uses our extensions.</p>
+  </section>
+
+  <section id="changes">
+    <h2>Changes to This Policy</h2>
+    <p>If this policy changes, the "Last updated" date at the top of this page will change accordingly. Material changes will also be reflected in each extension's Chrome Web Store listing.</p>
+  </section>
+
+  <footer>
+    <p>Questions about this policy? Contact us at <a href="mailto:didyk277@gmail.com">didyk277@gmail.com</a>.</p>
+    <p>© 2026 Xtriaa Technology.</p>
+  </footer>
+</div>
+
+</body>
+</html>
